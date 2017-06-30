@@ -1,0 +1,134 @@
+E2BIG	7	Argument list is too long	Yes
+EACCES	13	Permission denied    Yes
+EADDRINUSE	248	   Address is already in use	Yes
+EADDRNOTAVAIL	249	   Can't assign requested address	Yes
+EADV		68	   Advertise error	  No
+EAFNOSUPPORT	247	   Address family isn't supported by protocol family	Yes
+EAGAIN		11 (same as EWOULDBLOCK)  Resource is temporarily unavailable; try again	Yes
+EALREADY	See "Changes to EALREADY," below   Operation is already in progress		Yes
+EBADE		50  Invalid exchange	   No
+EBADF		9   Bad file descriptor	   Yes
+EBADFD		81  FD is invalid for this operation	No
+EBADFSYS	302 Corrupted filesystem detected	No
+EBADMSG		77  Bad message		 Yes
+EBADR		51  Invalid request descriptor	No
+EBADRPC		272 RPC struct is bad		No
+EBADRQC		54  Invalid request code	No
+EBADSLT		55  Invalid slot    No
+EBFONT		57  Bad font-file format	No
+EBUSY		16  Device or resource is busy	Yes
+ECANCELED	47  Operation canceled Yes
+ECHILD		10  No child processes Yes
+ECHRNG		37  Channel number is out of range	No
+ECOMM		70  Communication error occurred on send	No
+ECONNABORTED	253 Software caused connection to abort		Yes
+ECONNREFUSED	261 Connection refused	       Yes
+ECONNRESET	254 Connection reset by peer   Yes
+ECTRLTERM	310 Remap to the controlling terminal	No
+EDEADLK		45  Resource deadlock avoided		Yes
+EDEADLOCK	56  File locking deadlock		No
+EDESTADDRREQ	239 Destination address is required	Yes
+EDOM		33  Math argument is out of domain for the function	Yes
+EDQUOT		49  Disk quota exceeded	 Yes
+EENDIAN		313 Endian not supported No
+EEXIST		17  File exists		 Yes
+EFAULT		14  Bad address		 Yes
+EFBIG		27  File is too large	 Yes
+EFPOS		110 File positioning error	No
+EHOSTDOWN	264 Host is down     No
+EHOSTUNREACH	265 Unable to communicate with remote node	Yes
+EIDRM		36  Identifier removed	  Yes
+EILSEQ		88  Illegal byte sequence Yes
+EINPROGRESS	236 Operation now in progress	Yes
+EINTR		4   Interrupted function call	Yes
+EINVAL		22  Invalid argument	 Yes
+EIO		5   I/O error		 Yes
+EISCONN		256 Socket is already connected	Yes
+EISDIR		21  Is a directory    Yes
+EL2HLT		44  Level 2 halted    No
+EL2NSYNC	38  Level 2 not synchronized	No
+EL3HLT		39  Level 3 halted		No
+EL3RST		40  Level 3 reset		No
+ELIBACC		83  Can't access shared library	No
+ELIBBAD		84  Accessing a corrupted shared library	No
+ELIBEXEC	87  Attempting to exec a shared library		No
+ELIBMAX		86  Attempting to link in too many libraries	No
+ELIBSCN		85  The .lib section in a.out is corrupted	No
+ELNRNG		41  Link number is out of range	 No
+ELOOP		90  Too many levels of symbolic links or prefixes	Yes
+EMFILE		24  Too many open files		Yes
+EMLINK		31  Too many links		Yes
+EMORE		309 More to do, send message again	No
+EMSGSIZE	240 Inappropriate message buffer length	Yes
+EMULTIHOP	74  Multihop attempted	  Yes
+ENAMETOOLONG	78  Filename is too long  Yes
+ENETDOWN	250 Network is down Yes
+ENETRESET	252 Network dropped connection on reset	Yes
+ENETUNREACH	251 Network is unreachable     Yes
+ENFILE		23  Too many open files in the system	Yes
+ENOANO		53  No anode No
+ENOBUFS		255 No buffer space available	Yes
+ENOCSI		43  No CSI structure available	No
+ENODATA		61  No data (for no-delay I/O)	Yes
+ENODEV		19  No such device	  Yes
+ENOENT		2   No such file or directory	Yes
+ENOEXEC		8   Exec format error		Yes
+ENOLCK		46  No locks available		Yes
+ENOLIC		311 No license available	No
+ENOLINK		67  The link has been severed	Yes
+ENOMEM		12  Not enough memory Yes
+ENOMSG		35  No message of desired type	Yes
+ENONDP		301 Need an NDP (8087...) to run	No
+ENONET		64  Machine isn't on the network	No
+ENOPKG		65  Package isn't installed		No
+ENOPROTOOPT	242 Protocol isn't available		Yes
+ENOREMOTE	300 Must be done on local machine	No
+ENOSPC		28  No space left on device		Yes
+ENOSR		63  Out of streams resources		Yes
+ENOSTR		60  Device isn't a stream		Yes
+ENOSYS		89  Function isn't implemented		Yes
+ENOTBLK		15  A block device is required		No
+ENOTCONN	257 Socket isn't connected		Yes
+ENOTDIR		20  Not a directory			Yes
+ENOTEMPTY	93  Directory isn't empty		Yes
+ENOTSOCK	238 Socket operation on nonsocket	Yes
+ENOTSUP		48  Not supported    Yes
+ENOTTY		25  Inappropriate I/O control operation	Yes
+ENOTUNIQ	80  Given name isn't unique   No
+ENXIO		6   No such device or address Yes
+EOK		0   No error	   No
+EOPNOTSUPP	103 Operation isn't supported	Yes
+EOVERFLOW	79  Value too large to be stored in data type	Yes
+EOWNERDEAD	58  The owner of a lock died while holding it	No
+EPERM		1   Operation isn't permitted	   Yes
+EPFNOSUPPORT	246 Protocol family isn't supported	No
+EPIPE		32  Broken pipe	    Yes
+EPROCUNAVAIL	276 Bad procedure for program	No
+EPROGMISMATCH	275 Program version wrong	No
+EPROGUNAVAIL	274 RPC program isn't available	No
+EPROTO		71  Protocol error    Yes
+EPROTONOSUPPORT	243 Protocol isn't supported	Yes
+EPROTOTYPE	241 Protocol is wrong type for socket	Yes
+ERANGE		34  Result is too large	   Yes
+EREMCHG		82  Remote address changed No
+EREMOTE		66  The object is remote   No
+ERESTART	91  Restartable system call	No
+EROFS		30  Read-only filesystem	Yes
+ERPCMISMATCH	273 RPC version is wrong	No
+ESHUTDOWN	258 Can't send after socket shutdown	No
+ESOCKTNOSUPPORT	244 Socket type isn't supported		No
+ESPIPE		29  Illegal seek      Yes
+ESRCH		3   No such process   Yes
+ESRMNT		69  Server mount error	No
+ESRVRFAULT	312 The receive side of a message transfer encountered a memory fault accessing the receive/reply buffer.	No
+ESTALE		122 Potentially recoverable I/O error	   Yes
+ESTRPIPE	92  If pipe/FIFO, don't sleep in stream head	No
+ETIME		62  Timer expired Yes
+ETIMEDOUT	260 Connection timed out	Yes
+ETOOMANYREFS	259 Too many references: can't splice	No
+ETXTBSY		26  Text file is busy	 Yes
+EUNATCH		42  Protocol driver isn't attached	No
+EUSERS		94  Too many users (for UFS)		No
+EWOULDBLOCK	11 (same as EAGAIN)	Operation would block	Yes
+EXDEV		18 Cross-device link	Yes
+EXFULL		52 Exchange full	No
